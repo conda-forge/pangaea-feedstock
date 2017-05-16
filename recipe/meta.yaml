@@ -1,6 +1,6 @@
 {% set name = "pangaea" %}
-{% set version = "0.0.2" %}
-{% set sha256 = "e76b36417beff61e1ccb66694f4716ce6214c12a8e7abf7311a55951c5fee3ae" %}
+{% set version = "0.0.3" %}
+{% set sha256 = "50dc2c1dd18d20515e238daa7a1435c5fbde36c3be7ea78c4504691631870422" %}
 
 package:
   name: {{ name|lower }}
