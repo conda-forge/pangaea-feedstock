@@ -7,9 +7,9 @@ Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: An xarray extension for land surface models.
+Summary: An xarray extension for gridded land surface & weather model output.
 
-An xarray extension for land surface models.
+An xarray extension for gridded land surface & weather model output.
 
 
 Current build status
