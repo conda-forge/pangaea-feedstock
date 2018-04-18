@@ -3,26 +3,28 @@ About pangaea
 
 Home: https://github.com/snowman2/pangaea
 
-Package license: BSD-3-Clause
+Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: An xarray extension for gridded land surface & weather model output.
+Summary: An xarray extension for land surface models.
 
-An xarray extension for gridded land surface & weather model output.
+An xarray extension for land surface models.
 
 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pangaea-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pangaea-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pangaea-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pangaea-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pangaea-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pangaea-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pangaea-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pangaea-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/pangaea-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pangaea-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pangaea-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pangaea-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pangaea/badges/version.svg)](https://anaconda.org/conda-forge/pangaea)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pangaea/badges/downloads.svg)](https://anaconda.org/conda-forge/pangaea)
+[![Conda Recipe](https://img.shields.io/badge/recipe-pangaea-green.svg)](https://anaconda.org/conda-forge/pangaea)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pangaea.svg)](https://anaconda.org/conda-forge/pangaea)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/pangaea.svg)](https://anaconda.org/conda-forge/pangaea)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pangaea.svg)](https://anaconda.org/conda-forge/pangaea)
 
 Installing pangaea
 ==================
@@ -67,6 +69,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
