@@ -14,10 +14,10 @@ build:
 
 requirements:
   build:
-    - python
+    - python>=3.6
     - pip
   run:
-    - python
+    - python>=3.6
     - gazar
     - netcdf4
     - pynio  # [not py3k and not win]
