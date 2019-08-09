@@ -9,18 +9,18 @@ source:
   sha256: a114424e34e42befa691ddfe5f07272867f095fdc4f28dca633d5c6cadf26c16
 
 build:
-  number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 1
+  noarch: true
+  script: {{PYTHON}} -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
-    - python
+    - python>=3.6
     - pip
   run:
-    - python
+    - python>=3.6
     - gazar
     - netcdf4
-    - pynio  # [not py3k and not win]
     - wrf-python
 
 test:
@@ -41,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - snowman2
+    - swainn
