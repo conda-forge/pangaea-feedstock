@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/snowman2/pangaea
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'An xarray extension for land surface models.'
