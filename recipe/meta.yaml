@@ -9,12 +9,12 @@ source:
   sha256: a114424e34e42befa691ddfe5f07272867f095fdc4f28dca633d5c6cadf26c16
 
 build:
-  number: 2
-  noarch: true
-  script: {{PYTHON}} -m pip install --no-deps --ignore-installed .
+  number: 3
+  noarch: python
+  script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
 
 requirements:
-  build:
+  host:
     - python >=3.6
     - pip
   run:
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/snowman2/pangaea
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
   summary: 'An xarray extension for land surface models.'
