@@ -5,25 +5,27 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/p/pangaea/pangaea-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/p/pangaea/pangaea-{{ version }}.tar.gz
   sha256: a114424e34e42befa691ddfe5f07272867f095fdc4f28dca633d5c6cadf26c16
 
 build:
-  number: 3
+  number: 4
   noarch: python
   script: {{ PYTHON }} -m pip install --no-deps --ignore-installed .
 
 requirements:
   host:
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.6
+    - python >={{ python_min }}
     - gazar
     - netcdf4
     - wrf-python
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pangaea
 
